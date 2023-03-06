@@ -1,4 +1,4 @@
-export const data1 = [
+const data1 = [
     "Rain explosive chaos on your enemies with the Grenade Launcher, and watch them scatter before your might.",
     "Take careful aim with the Loch-n-Load, and let loose a devastating shot that will leave your enemies reeling.",
     "With Ali Baba's Wee Booties on your feet, you can cover ground at a breakneck pace and outmaneuver your foes.",
@@ -8,7 +8,7 @@ export const data1 = [
     "Unleash a barrage of deadly explosives with the Iron Bomber, and watch as your enemies fall before your unstoppable might."
 ]
 
-export const data2 = [
+const data2 = [
     "With your Stickybomb Launcher, you can lay traps and control the battlefield with explosive precision.",
     "Charge fearlessly into battle with the Chargin' Targe and plow through your enemies like a drunken rhinoceros.",
     "Show your strategic prowess with the Scottish Resistance and set up a network of deadly traps that will make your enemies tremble.",
@@ -18,7 +18,7 @@ export const data2 = [
     "The Quickiebomb Launcher may have a short fuse, but it packs a punch that will blow your enemies away before they even know what hit them.",
 ]
 
-export const data3 = [
+const data3 = [
     "The Bottle is a classic weapon of choice, break it open and let the shards fly!",
     "With the Scottish Handshake, you can extend a friendly hand and then bash your opponent's skull in.",
     "Sizzle your foes into submission with the Frying Pan, showing them who's boss in the kitchen and on the battlefield.",
@@ -42,3 +42,7 @@ export const data3 = [
     "Bring honor to your clan with the Half-Zatoichi, a weapon that demands satisfaction and deals death.",
     "Persuade your enemies to join your side with the Persian Persuader, a weapon that can turn the tide of battle with its explosive power."
 ]
+
+exports.data1 = data1;
+exports.data2 = data2;
+exports.data3 = data3;
